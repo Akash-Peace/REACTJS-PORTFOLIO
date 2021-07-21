@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+body{
+  background-color: #121212 !important;
+  scroll-behavior: smooth;
+}
+.homestyle {
+  display: flex;
+  flex-direction: row;
+}
+.Typewriter__cursor{
+  color: whitesmoke;
+}
+.akash{
+  font-family: 'Oleo Script', cursive;
+  color: #EDEDED !important;
+  font-size: 21px;
+  padding: 0px;
+}
+.akasha{
+  font-family: 'Oleo Script', cursive;
+  font-size: 75px;
+  background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);
+  background: linear-gradient(to right, #4ca2cd, #67B26F);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.homemypic{
+  width: 50%;
+  height: 93.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.homeabout{
+  width: 50%;
+  height: 93.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.homeimg{
+  display: block;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: -100px;
+  border-radius: 50px;
+}
+.homename{
+  font-size: 60px;
+  color: whitesmoke;
+  margin-top: -40px;
+  text-align: center;
+}
+.homedesc{
+  color: whitesmoke;
+  width: 75%;
+  margin: 0 auto;
+  margin-top: -50px;
+  font-size: xx-large;
+  font-weight: 500;
+}
+.navbtn{
+  color: whitesmoke !important;
+  width: 100px;
+  text-align: center;
+}
+.navbtn:hover{
+  font-weight: 800;
+  color: whitesmoke;
+}
+.cardstyle {
+  border: none !important;
+  width: 325px;
+  margin-bottom: 50px;
+  border-radius: 25px !important;
+  background-color: whitesmoke !important;
+  box-shadow: 0 4px 8px 0 rgba(141, 141, 141, 0.2), 0 6px 20px 0 rgba(141, 141, 141, 0.19);
+}
+.carddiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.skilldiv {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  justify-content: center;
+  color: #121212
+}
+.skillimg {
+  margin: 0 50px 50px 50px;
+  width: 96px !important;
+}
+.pwhole{
+  display: flex;
+  justify-content: space-evenly;
+  width: 75%;
+  margin: 0 auto;
+}
+.pp{
+  border-radius: 5px;
+  width: 225px;
+  height: 400px;
+  box-shadow: 0 8px 6px -6px gray;
+}
+.pph{
+  border-radius: 5px;
+  width: 400px;
+  height: 225px;
+  box-shadow: 0 8px 6px -6px gray;
+  margin-left: -100px;
+  margin-top: 75px;
+}
+.ppdiv{
+  width: 250px;
+  height: 425px;
+  margin-top: 100px;
+}
+.pdesc{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  margin-top: 100px;
+  height: 400px;
+}
+.plinks{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.slide{
+  height: 600px;
+}
+.carousel .carousel-indicators li {
+  filter: invert(1);
+}
+.iconspace{
+  margin: 0 10px 0 10px;
+  padding: 10px;
+  height: 45px;
+  width: 45px;
+}
+.iconspace:hover{
+  padding: 8px !important;
+}
+.mailno{
+  width: 425px;
+  justify-content: space-between;
+  margin-top: 50px !important;
+  display: flex; 
+  margin: 0 auto;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon { filter: invert(1); }
+@media screen and (max-width: 1150px) {
+  .homedesc{
+    font-size: 22px;
+    margin-top: 0px;
+  }
+  .homeimg{
+    max-width: 250px;
+    margin-top: 0px;
+  }
+  .homeabout{
+    width: 100%;
+    height: 46.5vh;
+  }
+  .homemypic{
+    width: 100%;
+    height: 46.5vh;
+  }
+  .homestyle {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 600px) {
+  .skillimg {
+    margin: 0 14px 50px 14px
+  }
+  .navbtn{
+    text-align: left;
+  }
+  .pp{
+    display: none;
+  }
+  .iconspace{
+    margin: 0 7px 0 7px;
+    padding: 7px;
+    height: 40px;
+    width: 40px;
+  }
+  .mailno{
+    width: auto;
+    justify-content: none;
+    margin-top: 50px !important;
+    display: block; 
+    margin: 0 auto;
+  }
+  .pph{
+    display: none;
+  }
+  .ppdiv{
+    display: none;
+  }
+  .pdesc{
+    margin-top: 50px;
+    text-align: center;
+    height: 50vh;
+  }
+  .plinks{
+    margin-bottom: 0px;
+  }
+  .slide{
+    height: 75vh;
+  }
+  .carousel-control-next-icon, .carousel-control-prev-icon { filter: invert(0); }
+}
