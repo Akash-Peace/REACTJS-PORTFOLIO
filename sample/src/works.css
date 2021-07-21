@@ -1,0 +1,17 @@
+.done {
+    font-size: 80%;
+    padding-top: 8%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.resume {
+    font-size: 80%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.gitbut {
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    height: 20vw;
+}

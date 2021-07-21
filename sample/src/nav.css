@@ -1,0 +1,10 @@
+.navtext {
+    font-size: 25px;
+    font-weight: 700;
+    color: gray;
+    word-spacing: 45px;
+    text-decoration: none;
+}
+.navtext.active {
+    color: black;
+}
