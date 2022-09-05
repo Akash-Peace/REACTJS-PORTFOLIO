@@ -24,7 +24,9 @@ function App() {
                                     ['https://github.com/Akash-Peace/CV-MOVEMENT-DETECTION/blob/main/screenshot/dac_test2.png?raw=true', 'https://github.com/Akash-Peace/CV-MOVEMENT-DETECTION/raw/main/screenshot/DAC_logo.png', 'DINO AIR CONTROLLER', 'A Python Library', 'Dino Air Controller project objective is to make a virtual controller of two key functions which can be controllable with hand movements.', 'https://www.youtube.com/watch?v=mg_czzvBm0g', 'https://github.com/Akash-Peace/CV-MOVEMENT-DETECTION', 'h'],
                                     ['https://github.com/Akash-Peace/CV-ARUCO-DETECTION/blob/main/screenshots/ARP_output1.png?raw=true', 'https://github.com/Akash-Peace/CV-ARUCO-DETECTION/raw/main/screenshots/APE_logo.png', 'ARUCO PHOTO EMBEDDING', 'A Python Library', 'ArUco Photo Embedding project objective is to make a photo embedding from source image to target image.', 'https://github.com/Akash-Peace/CV-ARUCO-DETECTION/blob/main/screenshots/ARP_output3.png?raw=true', 'https://github.com/Akash-Peace/CV-ARUCO-DETECTION', 'h'],
                                     ['https://github.com/Akash-Peace/OPENCV-GAME/blob/main/screenshot/output1.jpg?raw=true', 'https://github.com/Akash-Peace/OPENCV-GAME/raw/main/screenshot/Boring_jump_logo.png', 'BORING JUMP', 'A Python Library', 'Boring Jump project objective is to make a game by manipulating the pixels.', 'https://github.com/Akash-Peace/OPENCV-GAME/blob/main/screenshot/output3.png?raw=true', 'https://github.com/Akash-Peace/OPENCV-GAME', 'h'],
-                                    ['https://github.com/Akash-Peace/CV-IMAGE-PLOTTER/blob/main/screenshot/test1_output.jpg?raw=true', 'https://github.com/Akash-Peace/CV-IMAGE-PLOTTER/raw/main/screenshot/Terminal_plotter_logo.png', 'TERMINAL PLOTTER', 'A Python Library', 'Terminal Plotter project objective is to plot images in terminal/cmd with multiple functions.', 'https://github.com/Akash-Peace/CV-IMAGE-PLOTTER', 'https://github.com/Akash-Peace/CV-IMAGE-PLOTTER/blob/main/screenshot/test5_output.jpg?raw=true', 'h'],)
+                                    ['https://github.com/Akash-Peace/CV-IMAGE-PLOTTER/blob/main/screenshot/test1_output.jpg?raw=true', 'https://github.com/Akash-Peace/CV-IMAGE-PLOTTER/raw/main/screenshot/Terminal_plotter_logo.png', 'TERMINAL PLOTTER', 'A Python Library', 'Terminal Plotter project objective is to plot images in terminal/cmd with multiple functions.', 'https://github.com/Akash-Peace/CV-IMAGE-PLOTTER/blob/main/screenshot/test5_output.jpg?raw=true', 'https://github.com/Akash-Peace/CV-IMAGE-PLOTTER', 'h'],
+                                    ['https://github.com/Akash-Peace/REACTJS-FIREBASE-YT/blob/main/result/home.PNG?raw=true', 'https://github.com/Akash-Peace/REACTJS-FIREBASE-YT/raw/main/Documentations/PPR.png', 'PAID PROMOTERS', 'A Recommendation System', 'A recommendation system about youtube content creators for advertisers.', 'https://paid-promoters-recommender.web.app/', 'https://github.com/Akash-Peace/REACTJS-FIREBASE-YT', 'h'],
+                                    ['https://github.com/Akash-Peace/MULESOFT/blob/main/docs/flows.PNG?raw=true', 'https://github.com/Akash-Peace/MULESOFT/raw/main/docs/md.png', 'BOOK MY SHOW', 'A Mulesoft Application', 'Book My Show is the Mulesoft based project.', 'https://github.com/Akash-Peace/MULESOFT/blob/main/docs/Mini%20Project%20Presentation.pptx', 'https://github.com/Akash-Peace/MULESOFT', 'h'],)
   const changeNavbarColor = () =>{
     if(window.scrollY === 0){
       document.getElementById('bgc').style.backgroundColor = 'transparent'
@@ -111,7 +113,7 @@ function App() {
         </div>
         <div className='homeabout'>
           <div className='homedesc'>
-          <Typewriter options={{delay: 50}} onInit={(Typewriter) => {Typewriter.typeString('Hi, I am a Computer Science Engineer with a good Computer Vision, Web development and python background. I also managed to work with Software, ML/DL, Mobile app development and IoT.').start()}} />
+          <Typewriter options={{delay: 50}} onInit={(Typewriter) => {Typewriter.typeString('Hi, I am a Computer Science Engineer serving as a Full Stack Developer and also managed to work with Software, ML/DL, Mobile app development & IoT.').start()}} />
           </div>
       </div>
     </div>
@@ -121,7 +123,7 @@ function App() {
       <div className='carddiv'>
       <Card className='cardstyle'>
         <Card.Body>
-          <Card.Title style={{textAlign: 'center'}}>B.E</Card.Title>
+          <Card.Title style={{textAlign: 'center'}}>BE</Card.Title>
           <hr/>
           <Card.Text>
             <strong>College Name:</strong> Rajalakshmi Engineering<br/>
@@ -133,7 +135,7 @@ function App() {
       </Card>
       <Card className='cardstyle'>
         <Card.Body>
-          <Card.Title style={{textAlign: 'center'}}>12th</Card.Title>
+          <Card.Title style={{textAlign: 'center'}}>HSC</Card.Title>
           <hr/>
           <Card.Text>
             <strong>School Name:</strong> Leo<br/>
@@ -145,7 +147,7 @@ function App() {
       </Card>
       <Card className='cardstyle'>
         <Card.Body>
-          <Card.Title style={{textAlign: 'center'}}>10th</Card.Title>
+          <Card.Title style={{textAlign: 'center'}}>SSLC</Card.Title>
           <hr/>
           <Card.Text>
             <strong>School Name:</strong> Christ<br/>
@@ -161,8 +163,9 @@ function App() {
     <div id='skills' style={{background: 'whitesmoke'}}>
       <h3 style={{textAlign: 'center', marginBottom: '50px', color: '#121212'}}>SKILLS</h3>
       <div className='skilldiv'>
+      <div className='skillimg'><img style={{width: '90px', height: '90px'}} alt='Angular' src="https://img.icons8.com/color/146/000000/angularjs.png"/><p>Angular</p></div>
       <div className='skillimg'><img style={{width: '90px', height: '90px'}} alt='OpenCV' src="https://img.icons8.com/color/146/000000/opencv.png"/><p>OpenCV</p></div>
-      <div className='skillimg'><img style={{width: '90px', height: '90px'}} alt='Reactjs' src="https://img.icons8.com/color/146/000000/react-native.png"/><p>Reactjs</p></div>
+      <div className='skillimg'><img style={{width: '90px', height: '90px'}} alt='ReactJS' src="https://img.icons8.com/color/146/000000/react-native.png"/><p>ReactJS</p></div>
       <div className='skillimg'><img style={{width: '90px', height: '90px'}} alt='Python' src="https://img.icons8.com/color/146/000000/python--v1.png"/><p>Python</p></div>
       <div className='skillimg'><img style={{width: '90px', height: '90px'}} alt='Linux' src="https://img.icons8.com/color/146/000000/linux--v1.png"/><p>Linux</p></div>
       <div className='skillimg'><img style={{width: '90px', height: '90px'}} alt='Firebase' src="https://img.icons8.com/color/146/000000/firebase.png"/><p>Firebase</p></div>
@@ -170,12 +173,16 @@ function App() {
       <div className='skillimg'><img style={{width: '90px', height: '90px'}} alt='CSS 3' src="https://img.icons8.com/color/146/000000/css3.png"/><p>CSS</p></div>
       <div className='skillimg'><img style={{width: '90px', height: '90px'}} alt='JavaScript' src="https://img.icons8.com/color/146/000000/javascript--v1.png"/><p>JavaScript</p></div>
       <div className='skillimg'><img style={{width: '90px', height: '90px'}} alt='Bootstrap' src="https://img.icons8.com/color/146/000000/bootstrap.png"/><p>Bootstrap</p></div>
+      <div className='skillimg'><img style={{borderRadius: '50px', width: '80px', height: '80px', marginTop: '8px'}} alt='Kivy' src="https://pbs.twimg.com/profile_images/562300519008333825/6WcGRXLU_400x400.png" /><p>Kivy</p></div>
+      <div className='skillimg'><img style={{borderRadius: '50px', width: '90px', height: '90px'}} alt='Mulesoft' src="https://cdn.contactcenterworld.com/images/company/mulesoft-largex5-logo.jpg"/><p>Mulesoft</p></div>
+      <div className='skillimg'><img style={{width: '90px', height: '90px'}} alt='SQL' src="https://img.icons8.com/color/146/000000/sql.png"/><p>SQL</p></div>
+      <div className='skillimg'><img style={{width: '90px', height: '90px'}} alt='MongoDB' src="https://img.icons8.com/color/146/000000/mongodb.png"/><p>MongoDB</p></div>
+      <div className='skillimg'><img style={{width: '80px', height: '90px'}} alt='Spring Boot' src="https://spring.io/images/projects/spring-edf462fec682b9d48cf628eaf9e19521.svg"/><p>Spring Boot</p></div>
       <div className='skillimg'><img style={{width: '90px', height: '90px'}} alt='Django' src="https://img.icons8.com/material-outlined/146/006400/django.png"/><p>Django</p></div>
       <div className='skillimg'><img style={{width: '90px', height: '90px'}} alt='Android Studio' src="https://www.freepnglogos.com/uploads/android-logo-png/android-logo-android-studio-appjoy-25.png"/><p>Android Studio</p></div>
       <div className='skillimg'><img style={{width: '90px', height: '90px'}} alt='ML/DL' src="https://img.icons8.com/fluent/146/000000/learning.png"/><p>ML/DL</p></div>
       <div className='skillimg'><img style={{width: '90px', height: '90px'}} alt='Raspberry Pi' src="https://img.icons8.com/color/146/000000/raspberry-pi.png"/><p>IoT</p></div>
       <div className='skillimg'><img style={{width: '90px', height: '90px'}} alt='Chat Bot' src="https://img.icons8.com/color/146/000000/chat--v1.png"/><p>Chat Bot</p></div>
-      <div className='skillimg'><img style={{borderRadius: '50px', width: '80px', height: '80px', marginTop: '8px'}} alt='Kivy' src="https://pbs.twimg.com/profile_images/562300519008333825/6WcGRXLU_400x400.png" /><p>Kivy</p></div>
       </div>
       <br/><br/><br/>
     </div>
@@ -192,7 +199,7 @@ function App() {
           <div className='pdesc'>
             <div><img style={{height: '48px', width: '48px', margin: '0 auto', marginBottom: '10px'}} alt='Logo' src={p[1]}></img>
             <h4><strong>{p[2]}</strong></h4><p>{p[3]}</p>
-            <p style={{textAlign:'left', width: '250px', margin: '0 auto'}}>{p[4]}</p></div>
+            <p style={{float:'left', width: '250px', margin: '0 auto'}}>{p[4]}</p></div>
             <div className='plinks'><a href={p[5]}><img style={{cursor: 'pointer'}} alt='Link' src="https://img.icons8.com/material-outlined/48/000000/link--v1.png"/></a><a href={p[6]}><img style={{cursor: 'pointer'}} alt='Github' src="https://img.icons8.com/material-outlined/48/000000/github.png"/></a></div>
           </div>
           </div>
@@ -221,7 +228,7 @@ function App() {
       <a href='https://wa.me/918608550403?text=Hi'><img className='iconspace' style={{backgroundColor:'whitesmoke', borderRadius: '25px 25px 25px 0px'}} src="https://img.icons8.com/material-outlined/96/121212/whatsapp--v1.png"/></a>
       <div className='mailno'><p style={{color: 'whitesmoke'}}><img style={{height: '24px', width: '24px'}} src="https://img.icons8.com/material-outlined/96/ffffff/gmail-new.png"/>&nbsp;&nbsp;&nbsp;<strong>akashcse2000@gmail.com</strong></p>
       <p style={{color: 'whitesmoke'}}><img style={{height: '24px', width: '24px'}} src="https://img.icons8.com/material-rounded/96/ffffff/iphone-x.png"/>&nbsp;&nbsp;&nbsp;<strong>91+ 8608550403</strong></p></div>
-      <p style={{marginTop: '50px', color: 'gray'}}>HandCrafted by me @ Akash A</p>  
+      <p style={{marginTop: '50px', color: 'gray'}}>HandCrafted by me @Akash A</p>  
     </div>
     </div>
   );
